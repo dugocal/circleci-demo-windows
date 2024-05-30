@@ -17,6 +17,7 @@ jobs:
     executor:
       name: win/default
     working_directory: C:\Users\circleci\project\HelloWorld
+    parallelism: 10
     steps:
       - checkout:
           path: C:\Users\circleci\project
